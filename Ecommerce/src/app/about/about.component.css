@@ -1,0 +1,20 @@
+nav {
+    margin-top:72px;
+}
+.about {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.table-img-size {
+    width: 75%;
+    padding: 0.5rem;
+    height: auto;
+}
+.read-more-btn {
+    background-color: black;
+    font-size: 12px;
+}
+.row-margin {
+    margin-bottom: 28px;
+}

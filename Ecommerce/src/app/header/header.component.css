@@ -1,0 +1,13 @@
+#offcanvasNavbar {
+    width: 20%;
+}
+.navbar-brand{
+    color:whitesmoke;
+}
+li {
+    padding-left: 10px;
+}
+li:hover {
+    background-color: #0dbcac;
+    color: whitesmoke;
+}

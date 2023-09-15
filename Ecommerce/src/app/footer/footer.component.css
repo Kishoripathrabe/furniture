@@ -1,0 +1,28 @@
+.copyright {
+    background-color: #023f3b;
+    height: 35px;
+    font-size: 12px;
+    padding-top: 8px;
+}
+.space {
+    padding: 10px;
+    font-size: 12px;
+}
+.subscribe-form {
+    height: 30px;
+}
+button {
+    text-align:center;
+}
+label {
+    margin-right: 15px;
+}
+.last-line {
+    width: 150px;   
+}
+.margin-right {
+    margin-right: 30px;
+}
+.about-last{
+    font-size: 80%;
+}

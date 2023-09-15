@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+.bg-color{
+    background-color: rgb(183, 183, 183) !important;
+  }
+.green-color{
+  background-color: #01312e;
+}
+.navbar-brand{
+  color:whitesmoke;
+}
+.color-white{
+  color:whitesmoke;
+}
+.home-color {
+  color: #0dbbac;
+}

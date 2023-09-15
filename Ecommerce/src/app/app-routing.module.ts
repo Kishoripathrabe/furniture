@@ -16,7 +16,7 @@ const routes: Routes = [
     path:'product', component: ProductComponent
 },
 {
-    path:'contactus', component: ContactComponent
+    path:'contact', component: ContactComponent
 },
 ];
 
