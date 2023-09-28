@@ -1,0 +1,13 @@
+[   
+    {
+        "header": "About",
+        "title": "About Us",
+        "about":
+        {
+            "name" : "about_page_table",
+            "image":"../../assets/home/images/Avangarda_klu.jpg",
+            "content":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        "readmore": "Read More"
+    }
+]

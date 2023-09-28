@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "pname": "Lightweight Down Puffer Coat",
+    "bprice":"$700.78",
+    "pprice": "$678.98",
+    "customerreview": "(5 customer review)",
+    "pimage": "../../assets/home/images/p3.png",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+    "reviews": {
+      "image":"../../assets/home/images/lllll.png",
+      "name": "Ravi",
+      "date":"July 23,2019 | Reply",
+      "review":"There are many variations of passages of Lorem Ipsum available"
+    }
+  },
+  {
+    "id": "2",
+    "pname": "Lightweight Down Puffer Coat",
+    "bprice":"$600.78",
+    "pprice": "$564.98",
+    "customerreview": "(5 customer review)",
+    "pimage": "../../assets/home/images/p4.png",
+    "reviews": {
+      "image":"../../assets/home/images/lllll.png",
+      "name": "Ravi",
+      "date":"July 23,2019 | Reply",
+      "review":"There are many variations of passages of Lorem Ipsum available"
+    },
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+  },
+  {
+    "id": "3",
+    "pname": "Lightweight Down Puffer Coat",
+    "bprice":"$80.78",
+    "pprice": "$78.98",
+    "customerreview": "(5 customer review)",
+    "pimage": "../../assets/home/images/p2.png",
+    "reviews": {
+      "image":"../../assets/home/images/lllll.png",
+      "name": "Ravi",
+      "date":"July 23,2019 | Reply",
+      "review":"There are many variations of passages of Lorem Ipsum available"
+    },
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+  },
+  {
+    "id": "4",
+    "pname": "Lightweight Down Puffer Coat",
+    "bprice":"$300.78",
+    "pprice": "$68.98",
+    "customerreview": "(5 customer review)",
+    "pimage": "../../assets/home/images/p2.png",
+    "reviews": {
+      "image":"../../assets/home/images/lllll.png",
+      "name": "Ravi",
+      "date":"July 23,2019 | Reply",
+      "review":"There are many variations of passages of Lorem Ipsum available"
+    },
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+  },
+  {
+    "id": "5",
+    "pname": "Lightweight Down Puffer Coat",
+    "bprice":"$700.78",
+    "pprice": "$678.98",
+    "customerreview": "(5 customer review)",
+    "pimage": "../../assets/home/images/p3.png",
+    "reviews": {
+      "image":"../../assets/home/images/lllll.png",
+      "name": "Ravi",
+      "date":"July 23,2019 | Reply",
+      "review":"There are many variations of passages of Lorem Ipsum available"
+    },
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+  },
+  {
+    "id": "6",
+    "pname": "Lightweight Down Puffer Coat",
+    "bprice":"$600.78",
+    "pprice": "$578.98",
+    "customerreview": "(5 customer review)",
+    "pimage": "../../assets/home/images/p4.png",
+    "reviews": {
+      "image":"../../assets/home/images/lllll.png",
+      "name": "Ravi",
+      "date":"July 23,2019 | Reply",
+      "review":"There are many variations of passages of Lorem Ipsum available"
+    },
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+  }
+]

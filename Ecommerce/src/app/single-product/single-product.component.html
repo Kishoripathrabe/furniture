@@ -1,0 +1,48 @@
+
+<div class="row single-page justify-content-between"  *ngFor="let image of imageData">
+    <span class="col-2"></span>
+        <div class="col-4 center-image">
+            <img [src]="image.pimage" alt="{{image.pname}}">
+        </div>
+        <div class="col-4 px-4">
+            <h3>{{image.pname}}</h3>
+            <hr>
+            <span class="inline text-secondary"><del>{{image.bprice}}</del></span>
+            <span class="inline">{{image.pprice}}</span>
+            <ngb-rating [max]="5" [(rate)]="starRating" [readonly]="true"></ngb-rating>
+            <span class="customer-review ">{{image.customerreview}}</span>
+            <hr>
+            <div>{{image.description}}</div>
+            <div class="mt-2">
+                <input  class="input-box rounded-0 border" type="number" min="1" value="1">
+                <span><button class="btn text-bg-dark p-1 rounded-0 button-height">Add To Cart</button></span>
+            </div>
+        </div>
+    <span class="col-2"></span>
+</div>
+<div class="row single-page justify-content-between"  *ngFor="let image of imageData">
+    <span class="col-2"></span>
+    <div class="col-8">
+        <div class="border-bottom ">
+            <button type="button" class="btn btn-light btn-width rounded-0 "  [ngClass]="{'active-button': button1Active}" (click)="toggleButton(1)">Description</button>
+            <button type="button" class="btn btn-light btn-width rounded-0"  [ngClass]="{'active-button': button2Active}" (click)="toggleButton(2)">Reviews</button>
+        </div>
+        <div *ngIf="button1Active" class="mt-4">{{image.description}}</div>
+        <span *ngIf="button2Active">
+            <h5 class="mt-4">Reviews</h5>
+            <div class="row mt-4">
+                <div class="col-2 image-margin">
+                    <img [src]="image.reviews.image" alt="image.reviews.name">
+                </div>
+                <div class="col-8">
+                    <h5>{{image.reviews.name}}</h5>
+                    <div>{{image.reviews.date}}</div>
+                    <ngb-rating [max]="5" [(rate)]="starRating" [readonly]="true"></ngb-rating>
+                    <div class="review">{{image.reviews.review}}</div>
+                </div>
+            </div>
+            <hr>
+        </span>
+    </div>
+    <span class="col-2"></span>
+</div>

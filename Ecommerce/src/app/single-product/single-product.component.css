@@ -1,0 +1,44 @@
+.single-page {
+    margin-top: 150px;
+    height: 70vh;
+}
+.input-box {
+    width: 45px;
+    height: 35px;
+    margin-right: 10px;
+}
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(232,233,233,255);
+}
+.button-height {
+    height: 35px;
+    position: absolute;
+}
+.inline {
+    display: inline-block;
+    margin-right: 15px; 
+    font-size: 20px;
+}
+.btn-width {
+    width: 120px;
+}
+.active-button{  
+    background-color:#0dbbac;
+}
+.image-margin {
+    margin-right: 35px;
+}
+.review {
+    width: 104%;
+}
+.customer-review {
+    font-size: small;
+   color: grey;
+}
+ngb-rating {
+    color: #eabe12;
+    font-size: 20px;
+}

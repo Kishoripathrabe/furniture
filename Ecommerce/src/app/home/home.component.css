@@ -1,31 +1,25 @@
   .home-title {
     font-size : 4rem;
+    line-height: 60px;
     font-weight: bolder;
   }
   .latest {
-    color:#117970;
+    color:#0fbbad;
   }
-
   .home-img-size{
-    width: 65%;
-    padding: 0.5rem;
+    padding: 5rem;
     height: auto;
   }
   .bg-color{
-    background-color: rgb(183, 183, 183) !important;
+    background-color: rgba(232,233,233,255) !important;
   }
   .shop-now-btn{
     box-shadow: -10px 10px 2px 0px black;
-    margin-bottom: 25px;
+    margin-top: 25px;
   }
   .discount {
     background-color: #0dbbac;
   }
-  /* .carousel-size {
-    width: 30%;
-    height: 10%;
-  } */
-
   .carousel-indicators button {
     width: 12px;
     height: 12px;
@@ -42,4 +36,7 @@
   position: relative;
   top:167px;
 }
-
+.img-featured {
+  width: 40%;
+  height: 161px;
+}

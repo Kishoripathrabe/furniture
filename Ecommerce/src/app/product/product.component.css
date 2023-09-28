@@ -1,0 +1,40 @@
+nav {
+    margin-top:72px;
+}
+.product {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.products {
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+.img-featured {
+    width: 80%;
+    height: 200px;
+}
+.tagDiv{
+    position: relative;
+    top:-30px;
+    background: rgb(255, 255, 255);
+    width: 65%;
+    line-height: 65%;
+}
+.product-name {
+    font-size: 12px;
+}
+.product-price {
+    text-decoration: line-through;
+}
+.add-to-cart{
+    z-index: 12;
+    position: absolute;
+    top: 33%;
+    left:25%;
+}
+.bg-color-white {
+    background-color: white;
+    opacity: 0.5;
+  }
+  

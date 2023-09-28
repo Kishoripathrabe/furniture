@@ -7,3 +7,9 @@
     height: 35px;
     padding-left:12px;
 }
+.validation {
+    color: red;
+}
+/* .box:focus-visible {
+    border: none;
+} */

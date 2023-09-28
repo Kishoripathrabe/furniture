@@ -1,1 +1,21 @@
-<p>product works!</p>
+
+    <nav class="navbar row green-color product">
+        <span class=" color-white font-weight-bold">
+            <h2 class="justify-content-center bg font-weight-bold row d-flex">Our Product</h2>
+        </span>
+    </nav>
+    <div class="mt-4 row justify-content-around d-flex products">
+        <div (mouseover)="mouseOver(product.id)" (mouseleave)="mouseLeave(product.id)" class=" card custom-card border-0 col-4 border-0 text-center " *ngFor="let product of products">
+          <div><button *ngIf="product.id==id"  class="btn btn-light border-dark add-to-cart">+ Add to Cart</button></div>   
+                <div>
+                  <img  [src]="product.pimage" class="card-img-top p-3 img-featured bg-color" [class.bg-color-white]="product.id == id" 
+                   alt = {{product.pname}} (click)="singlepage(product.id)">
+                </div>
+                <div class="border border-dark tagDiv p-2 mx-auto">
+                  <span class="card-text m-1 home-color">{{product.pprice}}</span>
+                  <span class="card-text m-1 product-price">{{product.bprice}}</span>
+                  <p class="card-text product-name mt-1">{{product.pname}}</p>
+              </div>
+        </div>
+    </div>
+

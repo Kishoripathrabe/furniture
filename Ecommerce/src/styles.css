@@ -1,16 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
 .bg-color{
-    background-color: rgb(183, 183, 183) !important;
+    background-color: rgba(232,233,233,255);
   }
 .green-color{
   background-color: #01312e;
+  /* height: 85px; */
 }
 .navbar-brand{
-  color:whitesmoke;
+  color:#ffffff;
 }
 .color-white{
-  color:whitesmoke;
+  color:#ffffff;
 }
 .home-color {
   color: #0dbbac;
+}
+.img-margin {
+  margin: 20px;
 }

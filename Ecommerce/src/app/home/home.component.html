@@ -1,40 +1,33 @@
-<app-header></app-header>
+
 <nav class="navbar row">
   <div class="bg-color">
     <div class="row justify-content-center">
-      <div class="col-4 mt-5">
-        <div class="home-title">
-          <div class="latest">THE LATEST</div>
-          <div>FURNITURE</div>
-          <div>DESIGN</div>
+      <div class="col-5 mt-5">
+        <div class="home-title mb-5 mt-5">
+          <div class="latest">{{homeobj.title1}}</div>
+          <div><b>{{homeobj.title2}}</b></div>
+        </div>
+        <div>
+          <button class="btn text-bg-light p-2 rounded-0 shop-now-btn">
+            {{homeobj.shopnow}}
+          </button>
         </div>
       </div>
-      <div class="col-6 justify-content-end">
+      <div class="col-5 justify-content-end mt-4">
         <span class="home-img-size">
           <img
-            class="img-fluid"
-            src="../../assets/home-img.png"
+            class="img-fluid bg-color"
+            src={{homeobj.bgimage}}
+            width="78%"
             alt="homepage"
           />
         </span>
       </div>
       <div class="col-2"></div>
     </div>
-    <div class="row justify-content-start p-1">
-      <div class="col-4">
-        <button class="btn text-bg-light p-3 rounded-0 shop-now-btn">
-          SHOP NOW &nbsp; >
-        </button>
-      </div>
-    </div>
   </div>
 
-  <div
-    id="demo"
-    class="carousel slide mt-4 mx-auto"
-    style="width: 30%"
-    data-bs-ride="carousel"
-  >
+  <div id="demo" class="carousel slide mt-4 mx-auto" style="width: 30%" data-bs-ride="carousel">
     <!-- Indicators/dots -->
     <div class="carousel-indicators carousel-positioning">
       <button
@@ -57,102 +50,61 @@
 
     <!-- The slideshow/carousel -->
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img
-          src="../../assets/home-carousal1.png"
-          alt="Los Angeles"
-          class="d-block"
-          style="width: 100%"
-        />
-      </div>
-      <div class="carousel-item">
-        <img
-          src="../../assets/home-carousal2.png"
-          alt="Chicago"
-          class="d-block"
-          style="width: 100%"
-        />
-      </div>
-      <div class="carousel-item">
-        <img
-          src="../../assets/home-carousal3.png"
-          alt="New York"
-          class="d-block"
-          style="width: 100%"
-        />
+      <div class="carousel-item" [class.active]="home==homeobj.carousals[0]" *ngFor="let home of homeobj.carousals">
+        <img src={{home.carousal}} alt="carausal" class="d-block" style="width: 100%"/>
       </div>
     </div>
   </div>
-  <!-- <div class="justify-content-center d-flex mt-5">
-    <span  class=" row home-color"
-      ><h4><b>Trending &nbsp;</b></h4></span
-    >
-    <span class="row"
-      ><h4><b>Categories</b></h4></span
-    >
-  </div> -->
-    <div class=" text-center row mt-5">
-      <h4 class="col-12  "><b class="home-color" >Trending</b> &nbsp;<b > Categories</b></h4>
-    </div> 
-  
 
-  <div class=" text-center mt-5">
 
+  <div class="text-center row mt-5">
+    <h4 class="col-12">
+      <b class="home-color">{{homeobj.trending}}</b><b>{{homeobj.category}}</b>
+    </h4>
+  </div>
+  <div class="text-center mt-5">
     <div class="row justify-content-around">
-      <div class="col">
-        <img src="../../assets/home-outdoor.jpg" />
-        <div>Outdoor</div>
-      </div>
-      <div class="col">
-        <img src="../../assets/home-outdoor.jpg" />
-        <div>Living room</div>
-      </div>
-      <div class="col">
-        <img src="../../assets/home-outdoor.jpg" />
-        <div>Bedroom</div>
+      <div *ngFor="let category of this.category" class="col-md-3">
+        <div class="text-center">
+          <img class="card-img-top p-5" [src]="category.images"/>
+          <p class="card-text">{{ category.name }}</p>
+        </div>
       </div>
     </div>
   </div>
-  
-
 
   <div class="justify-content-center d-flex mt-5">
-    <span class="home-color"
-      ><h4><b>Featured &nbsp;</b></h4></span
-    ><span
-      ><h4><b>Brands</b></h4></span
-    >
+    <h4>
+      <b class="home-color">{{ homeobj.featured }}</b>
+      <b>{{ homeobj.brands }}</b>
+    </h4>
   </div>
-  <div class=" p-4 mt-3 ">
-    <div class="row border" style="box-shadow: 0 0 5px 2px rgb(45, 45, 45)
-    ">
-      <div *ngFor="let fbobj of Fbobjs" class="col-md-3">
+  <div class="p-4 mt-2">
+    <div class="row border" style="box-shadow: 0 0 5px 2px rgb(45, 45, 45)">
+      <div *ngFor="let home of homeobj.products" class="col-md-3">
         <div class="card custom-card border-0 text-center">
-          <img [src]="fbobj.pimage" class="card-img-top p-5" alt="Image 1">
-          <div class="card-body">
-            <h5 class="card-title">{{fbobj.pname}}</h5>
-            <p class="card-text">$10.99</p>
+          <div class="">
+            <img
+              [src]="home.image"
+              class="card-img-top p-2 img-featured"
+              alt="{{ home.name }}"
+            />
+          </div>
+          <div>
+            <h5 class="card-text">{{ home.pname }}</h5>
+            <h5 class="card-text mb-2">{{ home.pprice }}</h5>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
-  <div class="justify-content-center d-flex mt-5">
-    <span class="home-color"
-      ><h4><b>Contact &nbsp;</b></h4></span
-    ><span
-      ><h4><b>Us</b></h4></span
-    >
-  </div>
 
+  <div class="justify-content-center d-flex mt-5">
+    <h4>
+      <b class="home-color">{{homeobj.contact}}</b>
+      <b>{{homeobj.us}}</b>
+    </h4>
+  </div>
 </nav>
 
-
-
-
-
-
-
 <app-contact></app-contact>
-<app-footer></app-footer>

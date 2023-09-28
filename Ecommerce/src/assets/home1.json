@@ -1,0 +1,44 @@
+{
+
+    "home": "Home",
+    "about": "About",
+    "product": "Product",
+    "contactus": "Contact Us",
+    "ecommerce": "ECOMMERCE",
+    "title1": "THE LATEST",
+    "title2": "FURNITURE DESIGN",
+    "shopnow": " SHOP NOW > ",
+    "bgimage": "../../assets/home/images/bg.jpg",
+  "carousals": [
+    {"carousal": "../../assets/home/images/home-carousal1.png"},
+    {"carousal": "../../assets/home/images/home-carousal2.png"},
+    {"carousal": "../../assets/home/images/home-carousal3.png"}
+  ],
+    "trending": "Trending ",
+    "category": "Categories",
+    "categories": [
+      { "name": "Outdoor", "images": "../../assets/home/images/1.jpg" },
+      { "name": "Living Room", "images": "../../assets/home/images/2.jpg" },
+      { "name": "Bedroom Lighting", "images": "../../assets/home/images/3.jpg" }
+    ],
+
+    "featured": "Featured ",
+    "brands": " Brands",
+    "products": [
+      {"name": "product1", "price": "10$","image": "../../assets/home/images/p1.png"},
+      {"name": "product2","price": "11$","image": "../../assets/home/images/p2.png"},
+      {"name": "product3","price": "12$","image": "../../assets/home/images/p3.png"},
+      {"name": "product4","price": "13$","image": "../../assets/home/images/p4.png"}
+    ],
+    "contact": "Contact ",
+    "us": "Us",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "newsletter": "Newsletter",
+    "youremail": "Your Email",
+    "subscribe" : "Subscribe",
+    "content": "It is long established fact that the reader will be distracted by thereadable content of the page when loading at its layout.The point is using Lorem I",
+    "copyright": "Copyright2021"
+  }
